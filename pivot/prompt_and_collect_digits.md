@@ -24,6 +24,7 @@ header('content-type:application/json');
 
 ?>
 
+```
 {"module":"tts"
  ,"data":{"text":"Please enter up to four digits.","voice":"female","language":"en-US","engine":"ispeech"}
  ,"children":{
@@ -40,6 +41,7 @@ header('content-type:application/json');
      }
  }
 }
+```
 
 First, use the TTS engine "ispeech" to say the `text` field. Next, it will wait for the user to press up to 4 DTMF (with an optional `#` being a terminating DTMF that is not included in the collection). Finally, a second pivot request will be made the the `collected.php` script on your server.
 
