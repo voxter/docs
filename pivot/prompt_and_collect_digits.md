@@ -33,7 +33,7 @@ The initial JSON to collect DTMF could look something like:
                 }
             }
         }
-    }
+     }
     }
 
 First, use the TTS engine "ispeech" to say the `text` field. Next, it will wait for the user to press up to 4 DTMF (with an optional `#` being a terminating DTMF that is not included in the collection). Finally, a second pivot request will be made the the `collected.php` script on your server.
