@@ -19,8 +19,8 @@
 #           "number": "+15558881122"
 #       }
 #    }
-#   ,"user_id":[uuid of kazoo User] // optional user id applied as owner of incoming call when
-#                                   // when a call goes down the match branch, if specified.
+#   ,"user_id":[uuid of User] // optional user id applied as owner of incoming call when
+#                             // when a call goes down the match branch, if specified.
 # },
 # "children": {
 #   "match": { [callflow node to branch to when absolute mode is false and regex matches] },

@@ -5,7 +5,6 @@ Callflow Modules
 * cf_acdc_member: Manipulate memberships to Call Center Queues (Add Agent, Remove Agent)
 * cf_acdc_queue: Manipulate Call Center Queue Settings
 * cf_after_bridge: 
-* cf_callflow: Execute another existing callflow
 * cf_call_forward: Enable Call Forwarding
 * cf_camping_feature: Camp on an extension (i.e. Callback when the extension is free)
 * cf_check_cid: Check + route based on specific CallerID
@@ -26,7 +25,6 @@ Callflow Modules
 * cf_language: Change the default language for the remainder of the call
 * cf_manual_presence: Modify a BLF/Presence indicator light status
 * cf_menu: Deliver call to a Menu
-* cf_move: Move call to another media server
 * cf_offnet: Send an outgoing call to the PSTN
 * cf_page_group: Page a group of extensions
 * cf_park: Park call for retrieval at another extension
