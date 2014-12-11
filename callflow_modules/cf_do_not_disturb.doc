@@ -1,2 +1,5 @@
 #-------------------------------------------------------------------
-#
+# "data":{
+#   "action":["activate","deactivate","toggle"] // one of these
+#   ,"id":"document_id" // the document id of either a User or Device object
+# }
