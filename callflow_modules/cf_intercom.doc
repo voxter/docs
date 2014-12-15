@@ -1,2 +1,9 @@
 #-------------------------------------------------------------------
+# Attempts to call an endpoint as defined and pass the Auto-Answer
+# SIP header to the device in the Data payload.  Returns continue if fails to connect or
+# stop when successfull.
+# "data":{
+#   "cf_capture_group":[] // list of endpoint id's
+#   "barge_calls":["true","false"] // Whether or not to barge in on a call
+# }
 #

@@ -1,2 +1,7 @@
 #-------------------------------------------------------------------
-#
+# "data":{
+#   "id":"" // Conference-ID
+#   "moderator":"true","false" // Is there a moderator
+#   "play":"true","false" // Play the welcome prompt
+#   "welcome_prompt":"" // The media_id of the file to play
+# }

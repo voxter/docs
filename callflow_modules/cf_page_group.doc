@@ -1,2 +1,9 @@
 #-------------------------------------------------------------------
+# Attempts to call an endpoint as defined
+# in the Data payload.  Returns continue if fails to connect or
+# stop when successfull.
+# "data":{
+#   "endpoints":[] // list of endpoint id's
+#   "timeout":"" // timeout in seconds 
+# }
 #

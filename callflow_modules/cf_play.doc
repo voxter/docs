@@ -1,4 +1,4 @@
 #-------------------------------------------------------------------
 # "data":{
-#   ,"id":"media_id" // the document id of a media file stored in the database
+#   "id":"media_id" // the document id of a media file stored in the database
 # }

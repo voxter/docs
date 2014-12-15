@@ -1,2 +1,10 @@
 #-------------------------------------------------------------------
+# Attempts to call an endpoint as defined
+# in the Data payload.  Returns continue if fails to connect or
+# stop when successfull.
+# "data":{
+#   "id":"" // User id to ring
+#   "timeout":"" // Seconds to ring users endpoints
+#   "strategy":"simultaneous" // The method to ring the endpoints
+# }
 #
